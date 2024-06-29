@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+NZ:wght@100..400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  color: rgb(0, 0, 0);
+  background-color: rgb(211, 182, 128);
+  padding: 30px;
+  margin: 0px;
+  text-align: right;
+
+}
+
+ul {
+  display: inline;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid black;
+
+}
+
+li a {
+  display: inline;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Playwrite NZ";
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+
+}
+
+
+li {
+  display: inline-block;
+
+}
+
+.h2 {
+  display: inline-block;
+  width: 200px;
+  margin-left: 30px;
+  font-family: "Playwrite NZ";
+  margin-bottom: 5PX;
+}
+
+
+.pInH2 {
+  font-family: "Playwrite NZ";
+  width: 250px;
+  margin-top: 0PX;
+  margin-left: 30px;
+}
+
+
+.link1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(153, 103, 62);
+  padding: 6px 10px;
+  border-radius: 20px;
+
+}
+
+.link2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(153, 103, 62);
+  padding: 6px 10px;
+  border-radius: 20px;
+
+}
+
+.link1:hover,
+.link2:hover {
+  font-weight: 600;
+  padding: 8px 12px;
+  transition: all 100ms linear;
+
+}
+
+h1 {
+  font-family: "Playwrite NZ";
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.plate3,
+.plate2,
+.plate1 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#p {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Caveat";
+  font-size: 20px;
+}
+
+article {
+  text-align: center;
+  background-color: rgb(211, 182, 128);
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 50px;
+}
+
+.pizza {
+  height: 200px;
+  width: 300px;
+  margin: 40px;
+  border: 10px solid rgb(160, 129, 72);
+  border-radius: 50px;
+}
+
+.Lorem {
+  width: 200px;
+  margin-left: 89px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  font-family: "Playwrite NZ";
+  background-color: rgba(255, 255, 255, 0.336);
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.background {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: -20;
+}
+
+.background img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero {
+  position: absolute;
+  top: 200px;
+  color: white;
+}
+
+footer {
+  background-color: rgb(211, 182, 128);
+  padding: 1px 5px;
+  margin-top: 90px;
+  font-family: "Playwrite NZ";
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+input {
+  margin-bottom: 20px;
+
+}
+
+label,
+input {
+  display: block;
+  font-family: "Playwrite NZ";
+}
+
+
+.btn {
+  background-color: rgb(211, 182, 128);
+  border-radius: 50px;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-family: "Caveat";
+  font-size: 30px;
+
+}
+
+
+th,
+td {
+  width: 500px;
+  padding: 4px 10px
+}
+
+td {
+  padding: 4px 10px
+}
+
+
+.lorem {
+  height: 700px;
+  font-family: "Caveat";
+  font-weight: 700;
+}
+
+.lorem p {
+  text-align: center;
+  width: 500px;
+  margin-left: 860px;
+  font-size: 32px;
+}
+
+.lorem img {
+  display: block;
+  float: left;
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+}
